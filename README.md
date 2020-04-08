@@ -6,13 +6,13 @@ Finish:
 
  + Hshifter
  
-	X = 0 when PotX >= X0
+	X = 0 when PotX < X0
 	
-	X = 1 when PotX < X1 and PotX >= X2
+	X = 1 when PotX < X1 and PotX > X0
 	
-	X = 2 when PotX < X3 and PotX >= X4
+	X = 2 when PotX < X2 and PotX > X1
 	
-	X = 3 when PotX <= X5 
+	X = 3 when PotX > X2
 	
 	Y = 0 when PotY <= Y0
 	
@@ -27,7 +27,9 @@ Finish:
 	button 1 when Y > Y2  
 	
 	button 2 when Y < Y3
-	
+ 	
+Video test:
+   https://youtu.be/iMFBMW8ae2A	
 Todo:
 
 - GUI for Wheel
